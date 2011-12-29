@@ -1,0 +1,21 @@
+Bones
+
+This set of files is meant to make development easier & take
+advantage of modern web development & design techniques.
+For more information, please visit:
+http://themble.com/bones/
+
+Author: Eddie Machado
+
+/******************************************************************
+BONES CHANGE LOG & HISTORY
+******************************************************************/
+
+/* v1.01 */
+- added files
+- posted to twitter :D
+
+
+/* v1.00 */
+- i thought "there must be a better way"
+- did something about it

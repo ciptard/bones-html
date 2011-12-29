@@ -1,0 +1,62 @@
+/******************************************************************
+Site Name: Site Name Here
+Author: Your Name Here
+
+Stylesheet: Main Stylesheet
+******************************************************************/
+
+/* import reset */
+@import "normalize.less";
+/* print styles */
+@import "print.less";
+/* import mixins */
+@import "mixins.less";
+
+/******************************************************************
+BASE MOBILE STYLES
+These are loaded directly in the header. Why? Because now mobile
+devices will only download the CSS they need instead of CSS they 
+for larger screens. Every kb counts!
+******************************************************************/
+
+/* edit the base.less file for mobile styles */
+
+/******************************************************************
+TABLET or JUST LARGER THAN MOBILE
+This is a pretty minimal stylesheet meant to handle transition 
+screens which are just larger than mobile but smaller than 
+desktops.
+******************************************************************/
+
+@media only screen and (min-width: 480px) {
+	@import "480up.less";
+} /* end of media query */
+
+/******************************************************************
+DESKTOP & JUST BIGGER THAN AN iPAD
+This is your standard view for Desktops and average Laptops.
+******************************************************************/
+
+@media only screen and (min-width: 768px) {
+	@import "768up.less";
+} /* end of media query */
+
+/******************************************************************
+LARGE DESKTOPS
+For larger screens or widescreen monitors.
+******************************************************************/
+
+@media only screen and (min-width: 992px) {
+	@import "992up.less";
+} /* end of media query */
+
+/******************************************************************
+SUPER LARGE MONITORS STYLES 
+This is for super wide monitors for the l33t people. If you 
+worked in a good base in the previous styles, this should work
+pretty seamlessly.
+******************************************************************/
+@media only screen and (min-width: 1382px) {
+	@import "1382up.less";
+} /* end of media query */
+
